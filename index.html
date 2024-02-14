@@ -15,43 +15,46 @@
 
     <script src="jogo.js"></script>
 </head>
-<body>
+<body id="home">
     <div class="container">
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <img src="imagens/game.png" alt="">
+        <div class="mt-auto mb-auto">
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <img src="imagens/game.png" alt="">
+                </div>
             </div>
-        </div>
-
-        
-
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <div class="mb-2">
-                    <select class="form-control" id="dificuldade">
-                        <option value="">-- Selecione o nível --</option>
-                        <option value="facil">facil</option>
-                        <option value="medio">medio</option>
-                        <option value="dificil">dificil</option>
-                    </select>
+    
+            
+    
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <div>
+                        <select class="form-control" id="dificuldade">
+                            <option value="">-- Selecione o nível --</option>
+                            <option value="facil">facil</option>
+                            <option value="medio">medio</option>
+                            <option value="dificil">dificil</option>
+                        </select>
+                    </div>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center mt-1">
+                    <button onclick="inicarJogo()" class="btn btn-danger" type="button">Jogar</button>
+                </div>
+            </div>
+    
+            <div class="row">
+                <div class="col-12 d-flex justify-content-center">
+                    <h6 style="color: white;">Se estiver no celular, vire para o modo retrato</h6>
+                    <span class="ml-3 icone-celular">
+                        <i class="fa-solid fa-mobile-screen fa-lg"></i>
+                    </span>
                 </div>
             </div>
         </div>
-
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <button onclick="inicarJogo()" class="btn btn-danger" type="button">Jogar</button>
-            </div>
-        </div>
-
-        <div class="row">
-            <div class="col-12 d-flex justify-content-center">
-                <h6>Se estiver no celular, vire para o modo retrato</h6>
-                <span class="ml-3 icone-celular">
-                    <i class="fa-solid fa-mobile-screen fa-lg"></i>
-                </span>
-            </div>
-        </div>
+        
     </div>
 
     <!-- JavaScript (Opcional) -->
