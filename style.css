@@ -45,3 +45,14 @@ body{
     font-size: 20px;
     font-weight: bold;
 }
+
+.icone-celular{
+    animation: animacao_celular 1.5s ease-in-out infinite;
+}
+
+@keyframes animacao_celular
+{
+    100%{
+        transform: rotate(-90deg);
+    }
+}
